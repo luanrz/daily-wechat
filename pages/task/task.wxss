@@ -1,0 +1,9 @@
+.task-slideview{
+  font-size: medium;
+}
+
+.task-step-slideview{
+  font-size: small;
+  line-height: 0;
+  padding-left: 10px;
+}

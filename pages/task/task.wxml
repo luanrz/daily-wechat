@@ -1,0 +1,10 @@
+<view>
+  <view wx:for="{{tasks}}" wx:key="task" wx:for-item="task">
+    <view>{{task.content}}</view>
+    <!-- 
+    <view wx:for="{{task.taskSteps}}" wx:key="taskStep" wx:for-item="taskStep">
+        <view>{{taskStep.content}}</view>
+    </view>
+     -->
+  </view>
+</view>
